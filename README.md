@@ -3,8 +3,7 @@ its library  for android
 ImageView With progress waiting   when  image  load from internet 
 its easy and simple
 # setup
-in general project build.gradle   add 
-  
+
     
    in app build.gradle   add 
  ````java
