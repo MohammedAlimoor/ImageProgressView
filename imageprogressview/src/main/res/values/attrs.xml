@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <declare-styleable name="ImageProgressView">
+        <attr name="plaseholderImage" format="reference" />
+        <attr name="plaseholderImageError" format="reference" />
+        <attr name="progressBarColor" format="color" />
+        <attr name="srcImage" format="reference|color" />
+        <attr name="link" format="string" />
+        <attr name="hideProgressBar" format="boolean" />
+        <attr name="scaleType" format="enum">
+            <enum name="center" value="1" />
+            <enum name="centerCrop" value="2" />
+            <enum name="centerInside" value="3" />
+            <enum name="fitCenter" value="4" />
+            <enum name="fitXY" value="5" />
+        </attr>
+        <attr name="progressType" format="enum">
+            <enum name="Horizontal" value="1" />
+            <enum name="Inverse" value="2" />
+            <enum name="Large" value="3" />
+            <enum name="LargeInverse" value="4" />
+            <enum name="Small" value="5" />
+            <enum name="SmallInverse" value="6" />
+            <enum name="SmallTitle" value="7" />
+        </attr>
+    </declare-styleable>
+
+
+
+
+
+</resources>
