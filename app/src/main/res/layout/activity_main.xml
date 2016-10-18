@@ -18,8 +18,8 @@
     <alimoor.imageprogressview.ImageProgressView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:hideProgressBar="false"
         app:progressBarColor="#832a2a"
-        app:link="https://cdn-images-1.medium.com/max/1600/1*KJnGIK0biedB8fDKizEXxQ.png"
+        app:link="http://tegsde.fortiddns.com:63003/uploads/img_dad112dc-e396-454f-8da0-9a1f6f146c79.JPG"
+
         />
 </RelativeLayout>
