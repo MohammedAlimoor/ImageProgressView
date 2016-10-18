@@ -1,7 +1,7 @@
 # ImageProgressView
-its library  for android  
+ library  for android  
 ImageView With progress waiting   when  image  load from internet 
-its easy and simple
+, easy and simple
 # setup
 
     
