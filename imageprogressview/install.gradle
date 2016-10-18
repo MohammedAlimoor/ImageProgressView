@@ -1,13 +1,13 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'alimoor.imageprogressview' // CREATE A GROUP ID FOR YOUR LIBRARY
+group = 'com.github.MohammedAlimoor' // CREATE A GROUP ID FOR YOUR LIBRARY
 
 install {
     repositories.mavenInstaller {
         pom {
             project {
                 packaging 'aar'
-                groupId 'alimoor.imageprogressview' // CREATE A GROUP ID FOR YOUR LIBRARY
+                groupId 'com.github.MohammedAlimoor' // CREATE A GROUP ID FOR YOUR LIBRARY
                 artifactId 'imageprogressview' // THE NAME OF YOUR MODULE
 
                 name 'ImageProgressview' // YOUR LIBRARY NAME

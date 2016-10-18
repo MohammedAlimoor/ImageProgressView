@@ -1,5 +1,15 @@
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+publish {
+    groupId = 'com.github.MohammedAlimoor'
+    artifactId = 'imageprogressview'
+    publishVersion = '0.1.1'
+    desc = 'ImageView With progress waiting  support  url link  '
+    licences = ['Apache-2.0']
+    uploadName='ImageProgressview'
+    website = 'https://github.com/MohammedAlimoor/ImageProgressView.git'
+}
 
 android {
     compileSdkVersion 24
@@ -21,7 +31,11 @@ android {
         }
     }
 }
-
+subprojects {
+    tasks.withType(Javadoc).all { enabled = false }
+}
+//apply from: 'install.gradle'
+//apply from: 'bintray.gradle'
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {

@@ -1,4 +1,4 @@
-apply plugin: 'alimoor.imageprogressview'
+//apply plugin: 'com.jfrog.bintray'
 
 version = '0.0.1' //YOUR LIBRARY VERSION
 
