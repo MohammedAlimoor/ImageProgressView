@@ -12,7 +12,7 @@ in general project build.gradle   add
     
    in app build.gradle   add 
  ````java
-    compile 'com.github.MohammedAlimoor:imageprogressview:0.1.3'`
+    compile 'com.github.MohammedAlimoor:imageprogressview:0.1.3'
  ```` 
 # how to use
  ````xml
