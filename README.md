@@ -7,7 +7,7 @@ ImageView With progress waiting   when  image  load from internet
     
    in app build.gradle   add 
  ````java
-    compile 'com.github.MohammedAlimoor:imageprogressview:0.1.3'
+    compile 'com.github.MohammedAlimoor:imageprogressview:0.1.4'
  ```` 
 # how to use
  ````xml
