@@ -128,6 +128,11 @@ public class ImageProgressView extends RelativeLayout {
 
     }
 
+    public void setLink(String link) {
+        this.link = link;
+        LoadView();
+    }
+
     void LoadView() {
         imageView  = new ManagedNetworkImageView(getContext());
         RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
